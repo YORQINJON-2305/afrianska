@@ -290,6 +290,10 @@ body{
 
 /* All article */
 
+.all-article{
+    padding-bottom: 96px;
+}
+
 .all-article-heading{
     font-size: 18px;
     color: #356EAD;
@@ -356,7 +360,6 @@ body{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 96px;
     font-weight: var(--main-font-family);
     color: #356EAD;
     text-decoration: none;
@@ -442,6 +445,8 @@ body{
 
 .footer-list{
     padding: 0;
+    margin: 0;
+    margin-right: 50px;
     list-style: none;
 }
 
@@ -472,6 +477,12 @@ body{
     color: #fff;
 }
 
+.footer-about-list{
+    margin: 0;
+    padding: 0;
+    margin-right: 77px;
+}
+
 .about-list-item{
     color: #fff;
     list-style: none;
@@ -491,7 +502,7 @@ body{
 
 .footer-follow-list{
     padding: 0;
-    margin-left: 77px;
+    margin: 0;
 }
 
 
